@@ -97,7 +97,13 @@ background-color: rgba(3, 0, 0, 0.861);
         top: 22px;
         left: 66%;
         background-color:#F5BE32;
+        transition: .3s;
     }
+ 
+    .header-btn a:hover::before{
+      background-color: #000 !important;
+    }
+   
 
     .header-btn a{
         border: 2px solid#F5BE32;
@@ -106,7 +112,14 @@ background-color: rgba(3, 0, 0, 0.861);
         font-size: 16px;
         font-weight: 600;
         font-family: 'Cormorant SC', serif;
+        transition: .3s;
 
+    }
+
+
+    .header-btn a:hover {
+     background-color: #F3D382;
+     color: #000 !important;
     }
 /*  header section ends */
 
