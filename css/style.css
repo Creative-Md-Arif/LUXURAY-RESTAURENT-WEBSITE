@@ -100,7 +100,10 @@ background-color: rgba(3, 0, 0, 0.861);
         transition: .3s;
     }
  
-    .header-btn a:hover::before{
+    .header-btn a:hover::before,
+    .banner-text a:hover::before,
+    .order-btn a:hover::before,
+    .about-btn a:hover::before{
       background-color: #000 !important;
     }
    
@@ -117,8 +120,11 @@ background-color: rgba(3, 0, 0, 0.861);
     }
 
 
-    .header-btn a:hover {
-     background-color: #F3D382;
+    .header-btn a:hover,
+    .banner-text a:hover,
+    .order-btn a:hover,
+    .about-btn a:hover{
+     background-color: #F5BE32;
      color: #000 !important;
     }
 /*  header section ends */
@@ -185,17 +191,18 @@ background-color: rgba(3, 0, 0, 0.861);
     height: 2px;
     top: 22px;
     left: 66%;
-    background-color:#000;
+    background-color:#F5BE32;
+    transition: .3s;
 }
 
 .banner-text a{
     border: 2px solid#F5BE32;
     padding: 10px 60px 10px  10px;
-    color: #000 !important;
+    color: #F5BE32 !important;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Cormorant SC', serif;
-    background-color: #F5BE32;
+    transition: .3s;
 
 }
 
@@ -264,6 +271,7 @@ background-color: rgba(3, 0, 0, 0.861);
   top: 22px;
   left: 66%;
   background-color:#F5BE32;
+  transition: .3s ease;
 }
 
 .order-btn a{
@@ -273,6 +281,7 @@ background-color: rgba(3, 0, 0, 0.861);
   font-size: 16px;
   font-weight: 600;
   font-family: 'Cormorant SC', serif;
+  transition: .3s ease;
  
 }
 
@@ -596,6 +605,7 @@ background-color: rgba(3, 0, 0, 0.861);
   top: 22px;
   left: 70%;
   background-color:#F5BE32;
+  transition: .3s ease;
 }
 
 .about-btn a{
@@ -605,6 +615,7 @@ background-color: rgba(3, 0, 0, 0.861);
   font-size: 16px;
   font-weight: 600;
   font-family: 'Cormorant SC', serif;
+  transition: .3s ease;
 
 }
 /*  about part section ends */
