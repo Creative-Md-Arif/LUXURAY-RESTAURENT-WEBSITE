@@ -64,6 +64,11 @@ background-color: rgba(3, 0, 0, 0.861);
 /*  common css ends */
 
 /*  header section start */
+
+   #header{
+        position: fixed;
+   }
+
     .header{
        position: absolute;
        width: 100%;
